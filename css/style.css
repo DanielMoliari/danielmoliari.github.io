@@ -7,12 +7,9 @@
   font-family: "Quicksand", sans-serif;
 }
 
-body{
-  background-color: black;
-}
-
 body video{
- position: fixed;
+  top: -70px;
+  position: fixed;
 }
 
 ul{
@@ -20,14 +17,29 @@ ul{
   display: flex;
   flex-direction: row;
   gap: 50px;
-  padding-top: 500px;
+  padding-top: 450px;
   align-items: center;
   text-align: center;
   justify-content: center;
   vertical-align: middle;
 }
 
-a{
+.posicons{
+  padding-left: 810px;
+  padding-top: 350px;
+}
+
+.posicons a{
+  position:relative;
+  color: white;
+  font-size: 32px;
+}
+
+.posicons a i{
+  margin-left: 40px;
+}
+
+.buttons a{
   position: relative;
   background: white;
   color: white;
@@ -40,32 +52,32 @@ a{
   transition: 0.5s
 }
 
-a:hover{
+.buttons a:hover{
   background: var(--anm);
   color: var(--anm);
   letter-spacing: 0.25em;
   box-shadow: 0 0 35px var(--anm);
 }
 
-a::before{
+.buttons a::before{
   content: '';
   position: absolute;
   inset: 2px;
   background: black;
 }
 
-a span{
+.buttons a span{
   position: relative;
   z-index: 1;
 }
 
-a i{
+.buttons a i{
   position: absolute;
   inset: 0;
   display: block;
 }
 
-a i::before{
+.buttons a i::before{
   content: '';
   position: absolute;
   top: 0.2px;
@@ -77,12 +89,12 @@ a i::before{
   transition: 0.5s;
 }
 
-a:hover i::before{
+.buttons a:hover i::before{
   width: 30px;
   left: 20%;
 }
 
-a i::after{
+.buttons a i::after{
   content: '';
   position: absolute;
   bottom: 0.5px;
@@ -94,7 +106,8 @@ a i::after{
   transition: 0.5s;
 }
 
-a:hover i::after{
+.buttons a:hover i::after{
   width: 30px;
   left: 80%;
 }
+
