@@ -1,5 +1,5 @@
-const overlay = document.querySelector(".overlay");
+//const overlay = document.querySelector(".overlay");
 
-window.addEventListener("load", function () {
- overlay.style.display = "none";
+//window.addEventListener("load", function () {
+// overlay.style.display = "none";
 });
