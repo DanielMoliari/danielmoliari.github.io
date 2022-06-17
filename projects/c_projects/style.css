@@ -1,3 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
 body{
   background-color: #121212;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+.container{
+    position: relative;
+    min-height: 92vh;
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.container .search-box{
+    position: relative;
+    height: 48px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.search-box input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    background-color: #323334;
+    padding: 0 15px 0 45px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.search-box i{
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    top: 50%;
+    left: 15px;
+    font-size: 20px;
+    transform: translateY(-50%);
+}
+
+.container .imagens .imagens-box{
+    position: relative;
+    height: 300px;
+    width: 410px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.imagens{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagens .imagens-box{
+    margin: 8px;
+}
+
+.imagens .imagens-box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    transition: transform 0.2s linear;
+}
+
+.imagens-box:hover img{
+    transform: scale(1.20);
+}
+
+.imagens-box h6{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Quicksand", sans-serif;
 }
