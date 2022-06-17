@@ -6,10 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" type="text/css" href="/projects/css/style.css">
+    <script src="https://kit.fontawesome.com/8e8d8f15f9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="main-b">
-      <h1>Teste</h1>
+    <div class="menu">
+        <div class="toggle"><i class="fa-solid fa-code"></i></div>
+        <li style="--i:0;">
+            <a href="#"><i class="fa-brands fa-js-square"></i></a>
+        </li>
+        <li style="--i:1;">
+            <a href="#"><i class="fa-brands fa-css3-alt"></i></a>
+        </li>
+        <li style="--i:2;">
+            <a href="#"><i class="fa-solid fa-c"></i></a>
+        </li>
+        <li style="--i:3;">
+            <a href="#"><i class="fa-brands fa-python"></i></a>
+        </li>
+        <li style="--i:4;">
+            <a href="#"><i class="fa-brands fa-java"></i></a>
+        </li>
     </div>
     <section>
         <div class="loader"></div>
@@ -30,6 +46,13 @@
                 }
             },50)
         })
+    </script>
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+        toggle.onclick = function(){
+            menu.classList.toggle('active')
+        }
     </script>
 </body>
 </html>
