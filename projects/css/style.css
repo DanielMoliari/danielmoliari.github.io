@@ -14,7 +14,7 @@ section{
   background: #000;
   pointer-events: none;
   animation: fadeout .5s linear forwards;
-  animation-delay: 1s;
+  animation-delay: 3.5s;
   z-index: 10000;
 }
 
@@ -100,6 +100,10 @@ body{
 }
 
 .menu li a:hover{
+  color: #3586ff;
+}
+
+.toggle i:hover{
   color: #3586ff;
 }
 
