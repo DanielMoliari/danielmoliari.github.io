@@ -27,26 +27,6 @@
             <a href="/projects/java_projects/index.html"><i class="fa-brands fa-java"></i></a>
         </li>
     </div>
-    <section>
-        <div class="loader"></div>
-        <div class="count"></div>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            var count = 0;
-            var loader = setInterval(function(){
-                if(count < 101){
-                    $('.count').text(count + '%');
-                    $('.loader').css('width', count + '%');
-                    count++
-                }
-                else{
-                    clearInterval(counter)
-                }
-            },30)
-        })
-    </script>
     <script>
         let toggle = document.querySelector('.toggle');
         let menu = document.querySelector('.menu');

@@ -52,7 +52,7 @@ body{
     transform: translateY(-50%);
 }
 
-.container .imagens .imagens-box{
+.container .images .images-box{
     position: relative;
     height: 300px;
     width: 410px;
@@ -60,33 +60,44 @@ body{
     overflow: hidden;
 }
 
-.imagens{
+.images{
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.imagens .imagens-box{
+.images .images-box{
     margin: 8px;
 }
 
-.imagens .imagens-box img{
+.images .images-box img{
     height: 100%;
     width: 100%;
     border-radius: 6px;
     transition: transform 0.2s linear;
 }
 
-.imagens-box:hover img{
+.images-box:hover img{
     transform: scale(1.20);
 }
 
-.imagens-box h6{
+.images-box h6{
     position: absolute;
     bottom: 10px;
     left: 10px;
     color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+}
+
+.images-box .black{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: black;
     font-size: 12px;
     font-weight: 400;
     text-transform: capitalize;
