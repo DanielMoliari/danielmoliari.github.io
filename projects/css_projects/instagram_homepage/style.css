@@ -146,16 +146,6 @@ body{
   background-image: url('./img/googleplay-button.png');
 }
 
-.lists{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40%;
-  position: absolute;
-  z-index: 100;
-  right: 200px;
-}
-
 .listup{
   display: flex;
   align-items: center;
@@ -164,7 +154,7 @@ body{
   position: absolute;
   z-index: 100;
   top: 850px;
-  right: 300px;
+  right: 400px;
 }
 
 .listup{
@@ -189,7 +179,7 @@ body{
   position: absolute;
   z-index: 100;
   top: 880px;
-  right: 500px;
+  right: 600px;
 }
 
 .listdown{
@@ -212,11 +202,11 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 160px;
+  width: 227px;
   position: absolute;
   z-index: 100;
-  top: 920px;
-  right: 730px;
+  top: 935px;
+  right: 795px;
 }
 
 /* Responsive */
@@ -228,6 +218,18 @@ body{
 
   .instagram-phone2{
     left: -50px;
+  }
+  
+  ul.listup{
+    left: 20px;
+  }
+
+  ul.listdown{
+    left: 220px;
+  }
+
+  p.copyright{
+    left: 400px;
   }
 }
 
@@ -254,5 +256,32 @@ body{
 
   .group{
     border: 1px solid transparent;
+  }
+
+  ul.listup{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 610px;
+  }
+
+  ul.listup li{
+    margin-bottom: 3px;
+  }
+
+  ul.listdown{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    left: 130px;
+    margin-top: 5px;
+  }
+
+  ul.listdown li{
+    margin-bottom: 1px;
+  }
+
+  p.copyright{
+    left: 200px;
+    margin-top: 10px;
   }
 }
