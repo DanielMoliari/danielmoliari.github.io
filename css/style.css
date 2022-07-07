@@ -182,3 +182,20 @@ footer .wave#wave4{
     background-position-x: 1000px;
   }
 }
+
+/* Responsive */
+
+@media(max-width: 540px){
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  body footer{
+    margin-top: 43.6vh;
+  }
+}
