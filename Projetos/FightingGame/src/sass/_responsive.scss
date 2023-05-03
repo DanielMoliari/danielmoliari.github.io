@@ -1,0 +1,150 @@
+@media (max-width: 300px){
+    .pInfo{
+        .p{
+            width:100px;
+            height:100px;
+        }
+        #p2{
+            width:100px;
+            height:100px;
+        }
+        .pName{
+            font-size: map-get($font-sizes, small);
+        }
+    }
+    body {
+        .menu {
+          .middle{
+            & img{
+              width: 70px;
+            }
+            #play{
+                width: 80px;
+                height: 40px;
+            }
+          }
+        }
+        h3{
+            font-size: 24px;
+        }
+    }
+    .playerControls {
+        .AttackDiv {
+          #attack {
+            width: 70px;
+            height: 30px;
+          }
+        }
+        .HealDiv {
+          #heal {
+            width: 70px;
+            height: 30px;
+          }
+        }
+    }
+    .resultContainer {
+        width: unset;
+        #result {
+          font-size: map-get($font-sizes, medium);
+        }
+        #reset {
+          height: 40px;
+          width: 80px;
+        }
+      }
+}
+
+@media (min-width: 301px) and (max-width: 400px){
+    .pInfo{
+        .p{
+            width:100px;
+            height:100px;
+        }
+        #p2{
+            width:100px;
+            height:100px;
+        }
+        .pName{
+            font-size: map-get($font-sizes, small);
+        }
+    }
+    body {
+        .menu {
+          .middle{
+            & img{
+              width: 100px;
+            }
+            #play{
+                width: 80px;
+                height: 40px;
+            }
+          }
+        }
+        h3{
+            font-size: 24px;
+        }
+    }
+    .playerControls {
+        .AttackDiv {
+          #attack {
+            width: 70px;
+            height: 30px;
+          }
+        }
+        .HealDiv {
+          #heal {
+            width: 70px;
+            height: 30px;
+          }
+        }
+    }
+    .resultContainer {
+        width: unset;
+        #result {
+          font-size: map-get($font-sizes, medium);
+        }
+        #reset {
+          height: 40px;
+          width: 80px;
+        }
+      }
+      
+}
+
+@media (min-width: 401px) and (max-width: 700px){
+    .pInfo{
+        .p{
+            width:100px;
+            height:100px;
+        }
+        #p2{
+            width:100px;
+            height:100px;
+        }
+        .pName{
+            font-size: map-get($font-sizes, small);
+        }
+    }
+    body {
+        .menu {
+          .middle{
+            & img{
+              width: 200px;
+            }
+          }
+        }
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1100px){
+    .pInfo{
+        .p{
+            width:200px;
+            height:200px;
+        }
+        #p2{
+            width:200px;
+            height:200px;
+        }
+    }
+}

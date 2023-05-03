@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;900&display=swap');
+
+$blue: blue;
+$yellow: #FFFF01;
+$lightblue: #7DFFFF;
+$green: #02cf02;
+$white: white;
+$lightgreen: #3dff3d;
+$orange: #FF8800;
+$black: black;
+$red: red;
+
+$font-sizes:(
+    small: 30px,
+    medium: 40px,
+    large: 50px
+);
+
+$border-radius:(
+    small: 20px,
+    large: 50px
+);
+
+$font-family: 'VT323', monospace;
+$font-secondary: 'Noto Sans SC', sans-serif;

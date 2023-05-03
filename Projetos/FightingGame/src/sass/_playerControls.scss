@@ -1,0 +1,27 @@
+.playerControls {
+  @include flex(space-around, column);
+  align-items: unset;
+  margin-top: 60px;
+  gap: 10px;
+
+  .AttackDiv {
+    @include actionDiv;
+    gap: 5px;
+    #attack {
+      @include action();
+      &:hover{
+        background-color: $red;
+      }
+    }
+  }
+  .HealDiv {
+    @include actionDiv;
+    gap: 5px;
+    #heal {
+      @include action();
+      &:hover{
+        background-color: $lightgreen;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+#play {
+  height: 50px;
+  width: 120px;
+  border-radius: map-get($border-radius, small);
+  
+  &:hover{
+    background: $white;
+    outline: none;
+    color: $black;
+    cursor: pointer;
+    border: 2px solid $black;
+  }
+}
+
+.resultContainer {
+  @include flex(space-around, column);
+  width: 300px;
+  gap: 20px;
+  #result {
+    font-size: map-get($font-sizes, large);
+    color: $lightgreen;
+  }
+  #reset {
+    height: 50px;
+    width: 100px;
+    border-radius: map-get($border-radius, small);
+    &:hover{
+      background: $white;
+      outline: none;
+      color: $black;
+      cursor: pointer;
+      border: 2px solid $black;
+    }
+  }
+}

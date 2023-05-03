@@ -1,0 +1,23 @@
+@mixin actionDiv() {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+  width: 100px;
+}
+@mixin action() {
+  height: 40px;
+  width: 90px;
+  border-radius: map-get($border-radius, large);
+  background: $black;
+  outline: none;
+  color: $white;
+  cursor: pointer;
+  border: 2px solid $white;
+}
+@mixin flex($justify-content, $flex-direction) {
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: center;
+}

@@ -1,0 +1,30 @@
+body {
+  @include flex(center, column);
+  background: $black;
+  margin: 0;
+  width: 100vw;
+  font-family: $font-family;
+
+  .menu {
+    @include flex(space-between, row);
+    margin: 0 auto;
+    .middle{
+      @include flex(center, column);
+      & img{
+        width: 300px;
+        margin-bottom: 60px;
+      }
+    }
+  }
+  h3{
+    font-size: 32px;
+    color: $white;
+  }
+  button{
+    background: $black;
+    outline: none;
+    color: $white;
+    cursor: pointer;
+    border: 2px solid $white;
+  }
+}

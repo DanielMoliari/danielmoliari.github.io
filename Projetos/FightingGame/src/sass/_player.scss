@@ -1,0 +1,18 @@
+.pInfo{
+    @include flex(center, column);
+    margin-top: 80px;
+
+    .pName{
+        font-size: map-get($font-sizes, large);
+        color: $white;
+    }
+    .p{
+        width:400px;
+        height:400px;
+    }
+    .pHealth{
+        font-size: map-get($font-sizes, large);
+        color: $white;
+    }
+}
+  
