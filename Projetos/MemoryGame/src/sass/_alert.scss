@@ -1,0 +1,16 @@
+.alert-container {
+  display: flex;
+  justify-content: center;
+  .invisible {
+    display: none;
+  }
+  .alert {
+    @include alert(red, blue);
+  }
+  .alert-sucess{
+    @include alert(rgb(1, 107, 1), rgb(198, 243, 198));
+  }
+  .alert-danger{
+    @include alert(rgb(220, 53, 69), rgb(243, 198, 198));
+  }
+}

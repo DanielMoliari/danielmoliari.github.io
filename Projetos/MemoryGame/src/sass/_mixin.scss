@@ -1,0 +1,28 @@
+@mixin flexCenter(){
+    display: flex;
+    justify-content: center;
+}
+
+@mixin button(){
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 6px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@mixin button-hover(){
+    background-color: $black;
+    color: $white;
+}
+
+@mixin alert($color, $background-color){
+    color: $color;
+    border-radius: 10px;
+    background-color: $background-color;
+    width: 200px;
+    text-align: center;
+    padding: 15px 0;
+}
