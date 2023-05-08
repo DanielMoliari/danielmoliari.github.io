@@ -1,0 +1,17 @@
+.buttons-container{
+    @include flexCenter;
+    gap: 20px;
+    margin-top: 20px;
+    #jogar{
+        @include button;
+        &:hover{
+            @include button-hover;
+        }
+    }
+    #mostrarTudo{
+        @include button;
+        &:hover{
+            @include button-hover;
+        }
+    }
+}

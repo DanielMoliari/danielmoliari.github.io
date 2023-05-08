@@ -1,0 +1,14 @@
+.cards-container {
+    @include flexCenter;
+    flex-wrap: wrap;
+    width: 100%;
+  .card {
+    margin: 20px 100px;
+    border: 1px solid $bordercolor;
+    width: 120px;
+    cursor: pointer;
+    .card-img {
+      width: 100%;
+    }
+  }
+}
