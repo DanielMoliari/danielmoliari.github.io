@@ -5,7 +5,7 @@
     display: none;
   }
   .alert {
-    @include alert(red, blue);
+    @include alert(transparent, transparent);
   }
   .alert-sucess{
     @include alert(rgb(1, 107, 1), rgb(198, 243, 198));

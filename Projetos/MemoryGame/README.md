@@ -1,6 +1,8 @@
 # MemoryGame
 
 Esse minigame foi feito utilizando, somente HTML, CSS, SCSS, e JavaScript, com BrowserSync no Node Modules.
+
+Utilizei esse projeto de MemoryGame para aplicar alguns conceitos práticos para aperfeiçoar meu Javascript, padronização de projeto, gitignore, npm, e sass.
 #
 Para clonar o repositório e jogar:
 - Tenha baixado o Node em seu computador.
@@ -13,6 +15,8 @@ Para clonar o repositório e jogar:
 Aproveite e se divirta
 #
 This minigame was made using only HTML, CSS, SCSS, and JavaScript, with BrowserSync in Node Modules.
+
+I used this MemoryGame project to apply some practical concepts to improve my Javascript, project patterning, gitignore, npm, and sass.
 #
 To clone the repository and play:
 - Have Node downloaded on your computer.
@@ -23,3 +27,7 @@ To clone the repository and play:
 * Note: The `.gitignore` serves to not upload to github in the commits, the `public` folder, `node_modules/`, and the `package-lock.json` file.
 
 Enjoy and have fun
+
+
+## :camera_flash: MemoryGame GIF
+<img src="./src/assets/Animacao.gif" width="100%">
