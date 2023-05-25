@@ -16,5 +16,5 @@ Enjoy and have fun
 ###
 I hope this site is useful in some way :)
 
-## :camera_flash: SnakeGame GIF
+## :camera_flash: RandomColorGenerator GIF
 <img src="Animacao.gif" width="100%">
