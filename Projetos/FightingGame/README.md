@@ -25,5 +25,5 @@ To clone the repository and play:
 Enjoy and have fun
 
 
-## :camera_flash: SnakeGame GIF
+## :camera_flash: FightingGame GIF
 <img src="./src/assets/Animacao.gif" width="100%">
