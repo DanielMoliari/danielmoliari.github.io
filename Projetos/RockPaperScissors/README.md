@@ -9,4 +9,4 @@ This minigame was made using only HTML, CSS, and JavaScript
 Enjoy and have fun
 
 ## :camera_flash: Rock Paper Scissors Game GIF
-<img src="Animacao.gif" width="30%">
+<img src="Animacao.gif" width="50%">
