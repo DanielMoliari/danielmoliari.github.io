@@ -1,7 +1,13 @@
 # WeatherAPI
 
-Eu construi um site simples utilizando HTML, CSS, JavaScript e Bootstrap, utilizando uma API de clima ja existente do google
+Esse website foi feito utilizando HTML, CSS, JavaScript e Bootstrap, utilizando uma API de clima ja existente do google.
 
+Utilizei esse projeto de WeatherAPI para aplicar alguns conceitos práticos de Bootstrap, Fetch, e requisições API.
 #
 
-I built a simple website using HTML, CSS and JavaScript, using an existing google weather API
+This website was made using HTML, CSS, JavaScript and Bootstrap, using an existing google weather API.
+
+I used this WeatherAPI project to apply some practical concepts of Bootstrap, Fetch, and API requests.
+
+## :camera_flash: WeatherAPI GIF
+<img src="Animacao.gif" width="30%">

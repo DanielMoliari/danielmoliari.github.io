@@ -23,3 +23,7 @@ To clone the repository and play:
 * Note: The `.gitignore` serves to not upload to github in the commits, the `public` folder, `node_modules/`, and the `package-lock.json` file.
 
 Enjoy and have fun
+
+
+## :camera_flash: SnakeGame GIF
+<img src="./src/assets/Animacao.gif" width="100%">
