@@ -10,4 +10,4 @@ This website was made using HTML, CSS, JavaScript and Bootstrap, using an existi
 I used this WeatherAPI project to apply some practical concepts of Bootstrap, Fetch, and API requests.
 
 ## :camera_flash: WeatherAPI GIF
-<img src="Animacao.gif" width="30%">
+<img src="Animacao.gif" width="50%">
