@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+
+ol{
+    list-style: none;
+    padding: unset;
+    margin: unset;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header h1{
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+
+
+body{
+    margin: unset;
+    background: rgb(0,0,0);
+}
+
+.superior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.superior-info{
+    padding-left: 10px;
+}
+
+.superior img{
+    width: inherit;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.img-holder{
+    width: 340px;
+}
+
+.superior h2{
+    margin: unset;
+    text-align: center;
+}
+
+main,header{
+    width: 80%;
+    margin: 0px auto;
+}
+
+
+.generos{
+    width: 50%;
+}
+
+.classificacao p{
+    margin: 0px;
+    font-size: 25px;
+    width: 38px;
+    text-align: center;
+    height: 38px;
+    padding: 5px;
+
+}
+
+.item-filme{
+    padding: 10px;
+    background-color: rgb(217, 234, 248);
+    width: 49%;
+    flex-grow: 1;
+    margin: 20px 5px;
+    border-radius: 20px;
+}
+
+.info-elenco{
+    display: flex;
+}
+
+.nomes-elenco{
+    margin-left: 5px;
+    width: 80%;
+}
+
+.rating{
+    margin-top: 10px;
+}
+
+.estrela{
+    width: 35px;
+}
+
+.icon-similar{
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.preto,.vermelho,.laranja,.amarelo,.azul,.verde{
+    border-radius: 10px;
+    color: white;
+}
+
+.preto{
+    background-color: black;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.laranja{
+    background-color: orange;
+}
+
+.amarelo{
+    background-color: rgb(231, 231, 3);
+}
+
+.azul{
+    background-color: rgb(13, 227, 255);
+}
+
+.verde{
+    background-color: rgb(38, 199, 38);
+}
+
+.verde::before{
+    content: "L";
+    font-weight: bold;
+}
