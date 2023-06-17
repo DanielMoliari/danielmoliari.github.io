@@ -18,7 +18,11 @@ header > div {
   margin: 0 auto;
 }
 
-header > div > h1 {
+header > div > a{
+    text-decoration: none;
+}
+
+header > div > a > h1 {
   color: #eeeeee;
   font-family: "Roboto Condensed", sans-serif;
   font-style: normal;
